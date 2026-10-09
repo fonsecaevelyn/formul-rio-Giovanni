@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(246, 239, 253);
+}
+.container{
+    border: 2px solid rgb(89, 46, 138);
+    max-width: 500px;
+    /*centralizar*/
+    margin: auto;
+}
+h1{
+    color: rgb(89, 46, 138);
+}
+label{
+    color: rgb(89, 46, 138);
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+input,
+select{
+    width: 98%;
+    padding: 4px;
+}
+.btn-cadastro,
+.btn-limpar{
+    background-color: rgb(165, 133, 196);
+    color: #ffff;
+    padding: 10px;
+    border: 0;
+    margin: 10px;
+    cursor: pointer;
+}
+.btn-limpar{
+    background-color: rgb(212, 97, 97);
+}
