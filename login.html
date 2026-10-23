@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="PT_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+
+<body>
+    <div class="container">
+    <h1>Login</h1>
+
+        <form>
+            <div class="form-control">
+                <label for="login">Login: </label>
+                <input type="text" id="login" placeholder="Digite seu login..."/>
+            </div>
+                <br>
+            <div class="form-control">
+                <label for="email">E-mail: </label>
+                <input type="text" id="email" placeholder="Digite seu E-mail..."/>
+            </div>
+                <br>
+            <div class="form-control">
+                <label for="senha">Senha: </label>
+                <input type="password" id="senha" placeholder="Digite sua senha..."/>
+            </div>
+             
+            <div class="form-cvontrol">
+                <div class opcoes>
+                    <br>
+                    <input type="checkbox" id="lembrar">
+                    <label for="lembrar">Lembrar meu login</label>
+                     <a href="senha.html">Esqueceu a senha?</a>
+                </div>
+            </div>
+                
+            <div class="form-control">
+                <label for="cidade">Cidade: </label>
+                
+                <select id="cidade">
+                    <option value="">Selecione sua cidade</option>
+                    <option value="jundiai">Jundiaí</option>
+                    <option value="sao-paulo">São Paulo</option>
+                    <option value="cotia">Cotia</option>
+                </select>
+                <br><br>
+                 <div class="form-control">
+                <label>Tipo de acesso:</label>
+
+                <div class="opcoes">
+                <input type="radio" id="aluno" name="tipo" value="aluno" />  
+                <label for="aluno">Aluno</label>
+
+                <input type="radio" id="professor" name="tipo" valeu="professor"/>
+                <label for="professor">Professor</label>
+                </div>
+            </div>
+
+                <div class="form-control">
+                    <button type="submit">Entrar</button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>

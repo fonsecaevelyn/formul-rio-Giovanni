@@ -10,15 +10,18 @@ body{
     max-width: 500px;
     /*centralizar*/
     margin: auto;
+    
 }
 h1{
     color: rgb(89, 46, 138);
+    text-align: center;
 }
 label{
     color: rgb(89, 46, 138);
     display: block;
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-left: 10px;
 }
 input,
 select{
@@ -36,4 +39,13 @@ select{
 }
 .btn-limpar{
     background-color: rgb(212, 97, 97);
+}
+.link{
+    text-align: center;
+    
+}
+
+
+a{
+   text-decoration: none;
 }

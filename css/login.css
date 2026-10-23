@@ -1,0 +1,52 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(246, 239, 253);
+}
+.container{
+    max-width: 500px;
+    background-color: rgb(229, 217, 240);
+    margin: 0 auto;
+    padding: 20px;
+   border-radius: 10px;
+}
+.container h1{
+    text-align: center;
+    color: rgb(89, 46, 138);
+}
+.form_control{
+    margin-bottom: 15px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select{
+    width: 100%;
+    padding: 3px;
+    border-radius: 5px;
+    border: 1px solid rgb(246, 250, 253);
+}
+.opcoes label{
+    margin-top: 10px;
+}
+label{
+    color: rgb(89, 46, 138);;
+}
+button{
+    width: 95%;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(89, 46, 138);
+    color: aliceblue;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    transition: 1.0s all;
+}
+button:hover{
+    background-color: rgb(168, 117, 226);
+    font-weight: bold;
+}
+a{
+   margin-left: 340px;
+   text-decoration: none;
+}
